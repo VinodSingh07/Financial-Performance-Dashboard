@@ -6,7 +6,7 @@ An executive-ready **Financial Performance Dashboard** built in Power BI to trac
 
 ## 📸 Dashboard Overview
 
-![Financial Performance Dashboard](Finance%20Performance%20Dashboard.jpg)
+![Financial Performance Dashboard](https://github.com/VinodSingh07/Financial-Performance-Dashboard/blob/main/Finance%20Performance%20Dashboard.png)
 
 ---
 
