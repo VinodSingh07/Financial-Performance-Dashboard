@@ -6,29 +6,29 @@ An executive-ready **Financial Performance Dashboard** built in Power BI to trac
 
 ## 📸 Dashboard Overview
 
-![Financial Performance Dashboard](https://github.com/VinodSingh07/Financial-Performance-Dashboard/blob/main/Finance%20Performance%20Dashboard.png)
+![Financial Performance Dashboard](https://github.com/VinodSingh07/Financial-Performance-Dashboard/blob/main/Finance%20Performance%20Dashboard.png?raw=true)
 
 ---
 
 ## 🛠️ Project Execution Steps
 
-### 1. Data Preparation
+### Step 1: Data Preparation
 * **Connecting Data**: Connected and loaded financial datasets into Power BI.
 * **Power Query Transformations**:
   * Cleaned missing values and standardized column data types.
   * Created structured date/calendar attributes for time-intelligence analysis.
-  * Formatted sales person metadata and image URLs for dynamic visual rendering in table views.
+  * Formatted salesperson metadata and image URLs for dynamic visual rendering in table views.
 
 ---
 
-### 2. Data Modelling
+### Step 2: Data Modelling
 * Designed a clean star-schema semantic model in Power BI.
 * Defined standard 1-to-Many ($1:*$) relationships between dimension tables (e.g., `Calendar`, `Sales Team`) and core fact tables.
 * Configured proper filtering directions across dimensions to enable interactive cross-filtering across visuals.
 
 ---
 
-### 3. Calculations & DAX Measures
+### Step 3: Calculations & DAX Measures
 Created custom dynamic measures using **Power Pivot / DAX** for core performance metrics and time-intelligence comparisons:
 
 ```dax
